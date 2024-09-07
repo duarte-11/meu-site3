@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faça o Seu Cadastro</title>
+</head>
+<body>
+    <header>
+        <h1>Área de Cadastro</h1>
+    </header>
+    
+    <nav>
+        <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="usuarios.html">Usuários Cadastrados</a></li>
+            <li><a href="paginacadastro.html">Página de Cadastro</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Cadastre-se</h2>
+        <form action="/cadastro-objeto-tema" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+            
+            <label for="descricao">Data de Nascimento:</label><br>
+            <textarea id="descricao" name="descricao" placeholder="Data de Nascimento" required></textarea><br><br>
+			
+			<label for="nome">Endereço:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Ex: Rua" required><br><br>
+			
+			<label for="nome">Bairro:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Ex: Centro" required><br><br>
+			
+			<label for="nome">Cidade:</label><br>
+            <input type="text" id="nome" name="nome" placeholder="Digite sua Cidade" required><br><br>
+            
+            <button type="submit">Salvar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Todos os direitos reservados. <a href="sobre-autor.html">Sobre o Autor</a></p>
+    </footer>
+</body>
+</html>
